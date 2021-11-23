@@ -113,6 +113,11 @@ body, a {
   border: 2px solid #fff;
   border-radius: 50%;
   filter: brightness(40%);
+  transition: all .5s;
+}
+
+.header__about-img:hover {
+  filter: brightness(90%);
 }
 
 .header__about-photo {
@@ -121,20 +126,16 @@ body, a {
 
 .header__about-photo a {
   display: inline-block;
-  
+  border-radius: 50%;
 }
 
-.header__about-img:hover {
-  filter: brightness(90%);
-
-}
 
 .header__about-subtitle {
   margin-top: 20px;
   font-size: 35px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .header__about-subtitle span,
