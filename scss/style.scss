@@ -1,5 +1,5 @@
 $white: #F8F0E4;
-
+$orange: #ee7600;
 
 html {
     box-sizing: border-box;
@@ -80,6 +80,20 @@ body, a {
   padding: 0 10px;
 }
 
+
+.title {
+  font-size: 40px;
+  padding-bottom: 10px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 70px;
+  letter-spacing: 1px;
+  span {
+    color: $orange;
+  }
+}
+
+
 .header {
   &__top {
     padding-top: 30px;
@@ -102,9 +116,8 @@ body, a {
 }
 
 .header__about {
-  padding: 150px 50px;
+  padding: 180px 80px 270px;
 }
-
 
 .header__about-img {
   width: 250px;
@@ -129,7 +142,6 @@ body, a {
   border-radius: 50%;
 }
 
-
 .header__about-subtitle {
   margin-top: 20px;
   font-size: 35px;
@@ -140,7 +152,7 @@ body, a {
 
 .header__about-subtitle span,
 .header__about-profname span {
-  color: #ee7600;
+  color: $orange;
 }
 
 .header__about-profname {
@@ -148,13 +160,124 @@ body, a {
   text-align: center;
 }
 
+.about,
+.skills {
+  padding-bottom: 150px;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.about__facts-title,
+.about__plus-title,
+.about__minus-title,
+.skills__hard-title,
+.skills__soft-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  span {
+    color: $orange;
+  }
+}
+
+.about__facts-part,
+.about__pluses-part,
+.about__minuses-part {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 300px;
+  span {
+    color: $orange;
+  }
+  sup {
+    color: $orange;
+    font-size: 10px;
+    margin-left: 5px;
+    letter-spacing: 0.6px;
+  }
+}
+
+.about__facts-part::before {
+    position: absolute;
+    content: ">";
+    color: $orange;
+    font-size: 30px;
+    left: 0;
+    transform: translateY(-12%);
+    padding-left: 7px;
+  }
+
+  .about__pluses-part::before {
+    position: absolute;
+    content: "+";
+    color: $orange;
+    font-size: 30px;
+    left: 0;
+    transform: translateY(-20%);
+    padding-left: 7px;
+  }
+
+  .about__minuses-part::before {
+    position: absolute;
+    content: "-";
+    color: $orange;
+    font-size: 45px;
+    left: 0;
+    transform: translateY(-30%);
+    padding-left: 7px;
+  }
+
+  .skills__inner {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .skills__hard-part,
+  .skills__soft-part {
+    font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 300px;
+  position: relative;
+  span {
+    color: $orange;
+  }
+  }
+
+  span.skills__part-stars {
+    position: absolute;
+    right: -110px;
+    transform: translateY(-16%);
+    color: #fff;
+    span {
+      color: $orange;
+    }
+  }
+
+  .skills__hard,
+  .skills__soft {
+    padding: 30px 150px 30px 50px;
+    border-radius: 20%;
+    border: 2px solid $orange;
+  }
 
 
 
 // font-family: "Poppins", sans-serif;
 // font-family: "Ubuntu", sans-serif;
 
-// https://www.mff.cuni.cz/data/web/obsah/kfkl/icons/cv.svg
+
 
 
 
