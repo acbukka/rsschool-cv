@@ -117,6 +117,13 @@ body, a {
   border-radius: 50%;
   -webkit-filter: brightness(40%);
           filter: brightness(40%);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.header__about-img:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 .header__about-photo {
@@ -125,11 +132,7 @@ body, a {
 
 .header__about-photo a {
   display: inline-block;
-}
-
-.header__about-img:hover {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
+  border-radius: 50%;
 }
 
 .header__about-subtitle {
@@ -137,7 +140,7 @@ body, a {
   font-size: 35px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .header__about-subtitle span,
