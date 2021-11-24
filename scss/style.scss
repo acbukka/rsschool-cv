@@ -341,7 +341,7 @@ body, a {
 
   .contact__form {
     max-width: 570px;
-    padding: 30px 0;
+    padding: 30px 0 10px;
     margin: 0 auto;
     text-align: center;
   }
@@ -374,7 +374,7 @@ body, a {
   .contact__form button {
     border: none;
     margin-top: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 5px;
     padding: 17px 70px 15px;
     max-width: 230px;
     font-weight: 300;
@@ -408,7 +408,47 @@ body, a {
     transform-origin: left;
   }
 
+
+  #status {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: $orange;
+  }
+
+  #status.success {
+    animation: status 4s ease forwards;
+  }
+
+  #status.error {
+    animation: status 4s ease forwards;
+  }
+
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+
+  // #status.success {
+    
+  // }
+
+
+
+
   .contact__soc {
+    padding-top: 150px;
     display: flex;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
