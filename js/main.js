@@ -1,4 +1,46 @@
-var form = document.getElementById("my-form");
+
+// задаем и настраиваем функицонал закрытия/открытия менюшки и изменения элемента (стрелочки) при разных ее состояниях
+
+let NavList = document.querySelector('.header__nav-list');
+let arrowNav = document.querySelector('.nav-burger-arrow');
+let NavListElement = document.querySelector('.header__nav-link')
+
+arrowNav.addEventListener("click", () => {
+  let visibility = NavList.getAttribute('data-visible')
+
+  if (visibility === "false") {
+    NavList.setAttribute('data-visible', true);
+    arrowNav.setAttribute('aria-expanded', true);
+  } else if (visibility === "true") {
+    NavList.setAttribute('data-visible', false);
+    arrowNav.setAttribute('aria-expanded', false);
+  }
+
+});
+
+// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации:
+
+$('.header__nav-link').on('click', function () {
+  NavList.setAttribute('data-visible', false);
+  arrowNav.setAttribute('aria-expanded', false);
+});
+
+
+function navArrow() {
+
+  let arrow = $('.nav-burger-arrow');
+
+  $(window).on('scroll', () => {
+    if ($(this).scrollTop() >= 350) {
+      arrow.fadeIn();
+    } else {
+      arrow.fadeOut();
+    }
+  });
+
+}
+
+navArrow();
 
 // плавный скрол:
 
@@ -32,15 +74,9 @@ function backToTop() {
 backToTop();
 
 
+// настройка формы с помощью formspree:
 
-
-
-
-
-
-
-
-
+var form = document.getElementById("my-form");
 
 async function handleSubmit(event) {
   event.preventDefault();
@@ -52,6 +88,7 @@ async function handleSubmit(event) {
     headers: {
       'Accept': 'application/json'
     }
+
   }).then(response => {
     status.classList.add('success');
     status.innerHTML = "Thanks!";
@@ -61,11 +98,7 @@ async function handleSubmit(event) {
     status.innerHTML = "Oops! There was a problem submitting your form"
   });
 }
+
 form.addEventListener("submit", handleSubmit)
 
 
-
-
-// $(function(){
-    
-// });
