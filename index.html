@@ -12,33 +12,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="home">
 
   <div class="wrapper-bg">
 
     <header class="header">
+      <div class="header__top">
       <div class="container">
-        <div class="header__top">
+        <div class="header__top-inner">
           <div class="header__cv">
-            <a href="" class="header__cv-link">CV</a>
+            <a href="#home" class="header__cv-link">CV</a>
           </div>
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">A<span>b</span>out me</a>
+                <a href="#about" class="header__nav-link">A<span>b</span>out me</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Ski<span>ll</span>s</a>
+                <a href="#skill" class="header__nav-link">Ski<span>ll</span>s</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Dreams <span>and</span> goals</a>
+                <a href="#goals" class="header__nav-link">Dreams <span>and</span> goals</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link"><span>C</span>ontact</a>
+                <a href="#contact" class="header__nav-link"><span>C</span>ontact</a>
               </li>
             </ul>
           </nav>
         </div>
+        </div>
+      </div>
+        <div class="container">
         <div class="header__about">
           <div class="header__about-photo">
             <a class="" href="https://github.com/acbukka"><img class="header__about-img" src="images/me3.png"
@@ -47,10 +51,10 @@
             <h1 class="header__about-profname">Trainee <span>Front-end developer</span></h1>
           </div>
         </div>
-      </div>
+        </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h1 class="title">
           A<span>b</span>out me
@@ -79,7 +83,7 @@
       </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skill">
       <div class="container">
         <h1 class="title">
           Ski<span>ll</span>s
@@ -94,7 +98,7 @@
               JavaScript<span>/</span>Jquery<span class="skills__part-stars"><span>★</span>★★★★</span>
             </p>
             <p class="skills__hard-part">
-              SASS<span>/</span>SCSS <span class="skills__part-stars"><span>★★</span>★★★</span>
+              SASS<span>/</span>SCSS <span class="skills__part-stars"><span>★</span>★★★★</span>
             </p>
             <p class="skills__hard-part">
               BEM<span class="skills__part-stars"><span>★★</span>★★★</span>
@@ -131,7 +135,7 @@
       </div>
     </section>
 
-    <section class="points">
+    <section class="points" id="goals">
       <div class="container">
         <h1 class="title">
           Dreams <span>and</span> goals
@@ -158,7 +162,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <h1 class="title">
           <span>C</span>ontact me
@@ -232,9 +236,11 @@
           </g>
         </svg>
       </a>
-    </footer>
+    </footer> 
 
   </div>
+
+  <a href="#" class="back-to-top"></a>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/main.js"></script>
