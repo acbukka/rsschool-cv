@@ -3,9 +3,8 @@
 
 let NavList = document.querySelector('.header__nav-list');
 let arrowNav = document.querySelector('.nav-burger-arrow');
-let NavListElement = document.querySelector('.header__nav-link')
 
-arrowNav.addEventListener("click", () => {
+  arrowNav.addEventListener("click", () => {
   let visibility = NavList.getAttribute('data-visible')
 
   if (visibility === "false") {
@@ -15,10 +14,17 @@ arrowNav.addEventListener("click", () => {
     NavList.setAttribute('data-visible', false);
     arrowNav.setAttribute('aria-expanded', false);
   }
+  
+  });
 
-});
 
 // настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации:
+
+// $('.nav-burger-arrow').on('click', function () {
+//   NavList.setAttribute('data-visible', true);
+  
+// });
+
 
 $('.header__nav-link').on('click', function () {
   NavList.setAttribute('data-visible', false);
@@ -26,21 +32,7 @@ $('.header__nav-link').on('click', function () {
 });
 
 
-function navArrow() {
 
-  let arrow = $('.nav-burger-arrow');
-
-  $(window).on('scroll', () => {
-    if ($(this).scrollTop() >= 350) {
-      arrow.fadeIn();
-    } else {
-      arrow.fadeOut();
-    }
-  });
-
-}
-
-navArrow();
 
 // плавный скрол:
 
@@ -101,4 +93,37 @@ async function handleSubmit(event) {
 
 form.addEventListener("submit", handleSubmit)
 
+function navArrow() {
 
+  let arrowNav = $('.nav-burger-arrow');
+
+  $(window).on('scroll', () => {
+    if ($(this).scrollTop() >= 350) {
+      arrowNav.fadeIn();
+    } else {
+      arrowNav.fadeOut();
+    }
+  });
+
+}
+
+navArrow();
+
+
+
+
+
+
+
+// function show() {
+//   document.getElementsByClassName("nav-burger-arrow").style.setProperty('display', 'block', 'important');
+
+//   window.onresize = function () {
+//     if (window.innerWidth <= 1200) {
+//       document.getElementsByClassName("nav-burger-arrow").style.display = 'none';
+//     } else {
+//       document.getElementsByClassName("nav-burger-arrow").style.display =
+//         'block';
+//     }
+//   }
+// }
