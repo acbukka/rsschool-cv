@@ -162,7 +162,7 @@ body, a {
 }
 
 .header__about {
-  padding: 174px 80px 270px;
+  padding: 174px 0 270px;
 }
 
 .header__about-img {
@@ -822,28 +822,23 @@ span.skills__part-stars span {
   }
 }
 
-@media (max-width: 650px) {
-  .header__about-profname {
-    font-size: 40px;
-    margin-top: 25px;
-  }
+@media (max-width: 460px) {
   .header__about-subtitle {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .header__about-profname {
+    font-size: 36px;
+  }
+  .header__about-img {
+    width: 230px;
+    height: 230px;
+  }
+  .header__about {
+    padding: 80px 0 150px;
   }
 }
 
 @media (max-width: 450px) {
-  .header__about-img {
-    width: 200px;
-    height: 200px;
-  }
-  .header__about-profname {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .header__about-subtitle {
-    font-size: 27px;
-  }
   .skills__hard,
   .skills__soft {
     padding: 20px 130px 20px 28px;
@@ -864,13 +859,16 @@ span.skills__part-stars span {
     width: 75px;
     height: 100%;
   }
+  .back-to-top {
+    right: 20px;
+    bottom: 70px;
+  }
+  .nav-burger-arrow {
+    right: 30px;
+  }
 }
 
 @media (max-width: 400px) {
-  .header__about-img {
-    width: 170px;
-    height: 170px;
-  }
   .header__nav-list a {
     font-size: 23px;
   }
@@ -887,28 +885,12 @@ span.skills__part-stars span {
 }
 
 @media (max-width: 375px) {
-  .header__about-subtitle {
-    font-size: 20px;
-  }
-  .header__about-profname {
-    font-size: 30px;
-  }
-  .header__about-img {
-    width: 125px;
-    height: 125px;
-  }
   .header {
     min-height: 85vh;
-  }
-  .header__about {
-    padding: 174px 80px 190px;
   }
 }
 
 @media (max-width: 350px) {
-  .header__about-profname {
-    font-size: 28px;
-  }
   .skills__hard,
   .skills__soft {
     padding: 15px 125px 15px 25px;
@@ -927,22 +909,39 @@ span.skills__part-stars span {
   .header__nav-list a {
     font-size: 21px;
   }
-  .header__about-subtitle {
-    line-height: 30px;
-  }
-  .header__about-profname {
-    font-size: 24px;
-    line-height: 40px;
-  }
   .skills__hard-part,
   .skills__soft-part {
     font-size: 15px;
   }
   .header__about-img {
-    width: 123px;
-    height: 123px;
+    width: 220px;
+    height: 220px;
   }
   .webpage-author {
     font-size: 12px;
+  }
+  .header__about-profname {
+    font-size: 34px;
+  }
+  .header__about {
+    padding: 80px 0 170px;
+  }
+}
+
+@supports ((-webkit-backdrop-filter: blur(0.5rem)) or (backdrop-filter: blur(0.5rem))) {
+  @media (max-width: 1200px) {
+    .header__nav-list {
+      background-color: rgba(0, 0, 0, 0.3);
+      -webkit-backdrop-filter: blur(0.5rem);
+              backdrop-filter: blur(0.5rem);
+    }
+  }
+}
+
+@supports ((-webkit-backdrop-filter: blur(0.5rem)) or (backdrop-filter: blur(0.5rem))) {
+  .header__nav-list[data-visible="true"] {
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(0.5rem);
+            backdrop-filter: blur(0.5rem);
   }
 }
