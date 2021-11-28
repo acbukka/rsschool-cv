@@ -1,5 +1,4 @@
-
-// задаем и настраиваем функицонал закрытия/открытия менюшки и изменения элемента (стрелочки) при разных ее состояниях
+// задаем и настраиваем функицонал закрытия/открытия менюшки и изменения элемента (стрелочки) при разных ее состояниях:
 
 let NavList = document.querySelector('.header__nav-list');
 let arrowNav = document.querySelector('.nav-burger-arrow');
@@ -18,20 +17,13 @@ let arrowNav = document.querySelector('.nav-burger-arrow');
   });
 
 
-// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации:
-
-// $('.nav-burger-arrow').on('click', function () {
-//   NavList.setAttribute('data-visible', true);
-  
-// });
+// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации не только в мобильной версии:
 
 
 $('.header__nav-link').on('click', function () {
   NavList.setAttribute('data-visible', false);
   arrowNav.setAttribute('aria-expanded', false);
 });
-
-
 
 
 // плавный скрол:
@@ -109,21 +101,3 @@ function navArrow() {
 
 navArrow();
 
-
-
-
-
-
-
-// function show() {
-//   document.getElementsByClassName("nav-burger-arrow").style.setProperty('display', 'block', 'important');
-
-//   window.onresize = function () {
-//     if (window.innerWidth <= 1200) {
-//       document.getElementsByClassName("nav-burger-arrow").style.display = 'none';
-//     } else {
-//       document.getElementsByClassName("nav-burger-arrow").style.display =
-//         'block';
-//     }
-//   }
-// }

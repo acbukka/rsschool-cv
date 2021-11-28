@@ -582,7 +582,7 @@ body, a {
 
   .header__nav-list[data-visible="true"] {
     position: fixed;
-    inset: 0 0 0 30%;
+    inset: 0 0 0 75%;
     max-width: 100%;
     flex-direction: column;
     background-color: rgba(0,0,0, 0.5);
@@ -590,8 +590,8 @@ body, a {
     align-items: center;
     padding: 0 10px;
     z-index: 99;
-    background-color: rgba(0,0,0, 0.3);
-    backdrop-filter: blur(0.5rem);
+    background-color: rgba(0,0,0, 0.85);
+    // backdrop-filter: blur(0.5rem);
     animation: navlist .8s linear;
     // первый костыль, заменил transition на animation чтобы добавить анимацию плавного выпадения менюшки, но не знаю как настроить ее плавное закрывание, хотел бы узнать как это сделать как таким образом, так и с помощью transition
     }
@@ -631,7 +631,7 @@ body, a {
   @media (max-width: 1200px) {
     .header__nav-list {
       position: fixed;
-      inset: 0 0 0 30%;
+      inset: 0 0 0 70%;
       max-width: 100%;
       flex-direction: column;
       background-color: rgba(0,0,0, 0.5);
@@ -652,6 +652,7 @@ body, a {
 
     .header__nav-list[data-visible="true"] {
       transform: translateX(0%);
+      inset: 0 0 0 65%;
     }
 
     .header__nav-list li+li {
@@ -703,7 +704,19 @@ body, a {
     }
   }
 
-@media (max-width: 460px) {
+  @media (max-width: 900px) {
+  .header__nav-list[data-visible="true"] {
+      inset: 0 0 0 55%;
+    }
+  }
+
+  @media (max-width: 650px) {
+  .header__nav-list[data-visible="true"] {
+      inset: 0 0 0 30%;
+    }
+  }
+
+  @media (max-width: 460px) {
     .header__about-subtitle {
       font-size: 25px;
     }
