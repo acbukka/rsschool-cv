@@ -16,11 +16,17 @@ let arrowNav = document.querySelector('.nav-burger-arrow');
   
   });
 
+// функция закрытия/открытия менюшки (заменил атрибуты на классы)
 
-// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации не только в мобильной версии:
+$('.nav-burger-arrow, .header__nav-item a').on('click', function () {
+  $('.header__nav-two').toggleClass('header__nav-two--active')
+});
 
 
-$('.header__nav-link').on('click', function () {
+// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации:
+
+
+$('.header__nav-link, .header__cv a').on('click', function () {
   NavList.setAttribute('data-visible', false);
   arrowNav.setAttribute('aria-expanded', false);
 });
@@ -85,19 +91,14 @@ async function handleSubmit(event) {
 
 form.addEventListener("submit", handleSubmit)
 
-function navArrow() {
 
-  let arrowNav = $('.nav-burger-arrow');
 
-  $(window).on('scroll', () => {
-    if ($(this).scrollTop() >= 350) {
-      arrowNav.fadeIn();
-    } else {
-      arrowNav.fadeOut();
-    }
-  });
 
+
+// функция для скрытия менюшки при клике в область за зоной (outside) этой менюшки:
+
+document.onclick = function(e) {
+  if (e.target.id !== 'header__nav-list-two' && e.target.id !== 'nav-burger-arrow') {
+    $('.header__nav-two').removeClass('header__nav-two--active')
+  }
 }
-
-navArrow();
-
