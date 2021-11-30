@@ -732,7 +732,7 @@ span.skills__part-stars span {
   margin-top: 60px;
 }
 
-.nav-burger-arrow[aria-expanded="true"]::after {
+.nav-burger-arrow--active::after {
   -webkit-transform: translate(-50%, -50%) rotate(135deg);
           transform: translate(-50%, -50%) rotate(135deg);
 }
