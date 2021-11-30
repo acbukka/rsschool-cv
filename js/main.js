@@ -1,36 +1,24 @@
-// задаем и настраиваем функицонал закрытия/открытия менюшки и изменения элемента (стрелочки) при разных ее состояниях:
 
-let NavList = document.querySelector('.header__nav-list');
-let arrowNav = document.querySelector('.nav-burger-arrow');
-
-  arrowNav.addEventListener("click", () => {
-  let visibility = NavList.getAttribute('data-visible')
-
-  if (visibility === "false") {
-    NavList.setAttribute('data-visible', true);
-    arrowNav.setAttribute('aria-expanded', true);
-  } else if (visibility === "true") {
-    NavList.setAttribute('data-visible', false);
-    arrowNav.setAttribute('aria-expanded', false);
-  }
-  
-  });
-
-// функция закрытия/открытия менюшки (заменил атрибуты на классы)
+// функция закрытия/открытия менюшки c помощью добавления/удаления класса
 
 $('.nav-burger-arrow, .header__nav-item a').on('click', function () {
   $('.header__nav-two').toggleClass('header__nav-two--active')
 });
 
+// такая же функция, только для стрелочки меню, чтобы она меняла свое состояние
 
-// настраиваем функцию автоматического закрывания менюшки при нажатии на стрелочку навигации:
-
-
-$('.header__nav-link, .header__cv a').on('click', function () {
-  NavList.setAttribute('data-visible', false);
-  arrowNav.setAttribute('aria-expanded', false);
+$('.nav-burger-arrow, .header__nav-item a').on('click', function () {
+  $('.nav-burger-arrow').toggleClass('nav-burger-arrow--active')
 });
 
+// функция для скрытия менюшки при клике в область за зоной (outside) этой менюшки и одновременно изменении состоянии стрелочки:
+
+document.onclick = function (e) {
+  if (e.target.id !== 'header__nav-list-two' && e.target.id !== 'nav-burger-arrow') {
+    $('.header__nav-two').removeClass('header__nav-two--active');
+    $('.nav-burger-arrow').removeClass('nav-burger-arrow--active')
+  }
+}
 
 // плавный скрол:
 
@@ -63,7 +51,6 @@ function backToTop() {
 
 backToTop();
 
-
 // настройка формы с помощью formspree:
 
 var form = document.getElementById("my-form");
@@ -91,14 +78,6 @@ async function handleSubmit(event) {
 
 form.addEventListener("submit", handleSubmit)
 
-
-// функция для скрытия менюшки при клике в область за зоной (outside) этой менюшки:
-
-document.onclick = function(e) {
-  if (e.target.id !== 'header__nav-list-two' && e.target.id !== 'nav-burger-arrow') {
-    $('.header__nav-two').removeClass('header__nav-two--active')
-  }
-}
 
 // подключил библиотеку hightlight js для демонстрации кода:
 
