@@ -618,10 +618,14 @@ body, a {
       margin-top: 60px;
     }
 
-    
-  .nav-burger-arrow[aria-expanded="true"]::after{
-    transform: translate(-50%, -50%) rotate(135deg);
+  .nav-burger-arrow--active::after {
+      transform: translate(-50%, -50%) rotate(135deg);
     }
+
+
+  // .nav-burger-arrow[aria-expanded="true"]::after{
+  //   transform: translate(-50%, -50%) rotate(135deg);
+  //   }
 
 
 @media (max-width: 1600px) {
