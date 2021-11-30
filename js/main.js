@@ -92,9 +92,6 @@ async function handleSubmit(event) {
 form.addEventListener("submit", handleSubmit)
 
 
-
-
-
 // функция для скрытия менюшки при клике в область за зоной (outside) этой менюшки:
 
 document.onclick = function(e) {
@@ -102,3 +99,7 @@ document.onclick = function(e) {
     $('.header__nav-two').removeClass('header__nav-two--active')
   }
 }
+
+// подключил библиотеку hightlight js для демонстрации кода:
+
+hljs.initHighlightingOnLoad();
