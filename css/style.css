@@ -673,6 +673,10 @@ span.skills__part-stars span {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(315deg);
           transform: translate(-50%, -50%) rotate(315deg);
+  -webkit-transition: -webkit-transform 350ms ease-out;
+  transition: -webkit-transform 350ms ease-out;
+  transition: transform 350ms ease-out;
+  transition: transform 350ms ease-out, -webkit-transform 350ms ease-out;
   position: absolute;
   content: "";
   width: 15px;
