@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs@9.16.2/styles/railscasts.css">
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Spectral:wght@300;400&family=Work+Sans&display=swap"
-    rel="stylesheet">
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Spectral:wght@300;400&family=Work+Sans&display=swap"
+  rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -159,6 +160,37 @@
       </div>
     </section>
 
+
+    <section class="code">
+      <div class="container">
+        <h1 class="title">
+          <span>C</span>ode <span>e</span>xample
+        </h1>
+        <div class="code__in">
+<pre><code class="code-in">function backToTop() {
+              
+let button = $('.back-to-top');
+              
+$(window).on('scroll', () => {
+  if ($(this).scrollTop() >= 350) {
+  button.fadeIn();
+} else {
+  button.fadeOut();
+  }
+});
+
+button.on('click', (e) => {
+  e.preventDefault();
+  $('html').animate({scrollTop: 0}, 1000)
+  })
+}
+              
+backToTop();</code></pre>
+</div>
+      </div>
+    </section>
+
+
     <section class="points" id="goals">
       <div class="container">
         <h1 class="title">
@@ -267,6 +299,7 @@
   
   <a href="#" class="back-to-top"></a>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

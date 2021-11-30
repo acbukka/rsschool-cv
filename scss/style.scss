@@ -318,6 +318,21 @@ body, a {
     border: 2px solid $orange;
   }
 
+  .code__in {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+  }
+
+  .code-in {
+    padding: 30px 250px;
+    font-size: 18px;
+    background-color: rgba(0,0,0, 0.6);
+  }
+
+
+
   .points__inner {
     display: flex;
     justify-content: center;
@@ -598,7 +613,6 @@ body, a {
     
   }
  
-
   .header__nav-list-two .header__nav-item{
       margin-left: 0;
       margin-top: 60px;
@@ -689,12 +703,19 @@ body, a {
   .header__nav-list-two {
       inset: 0 0 0 55%;
     }
+  .code-in {
+    padding: 30px 100px;
+  }
   }
 
   @media (max-width: 650px) {
   .header__nav-list-two {
       inset: 0 0 0 30%;
     }
+  .code-in {
+    padding: 30px 50px;
+    font-size: 18px;
+  }
   }
 
   @media (max-width: 460px) {
@@ -711,7 +732,10 @@ body, a {
     .header__about {
       padding: 80px 0 150px;
     } 
-
+    .code-in {
+      padding: 30px 35px;
+      font-size: 16px;
+  }
 }
 
   @media (max-width: 450px) {
@@ -754,12 +778,20 @@ body, a {
     .webpage-author {
       font-size: 14px;
     }
+    .code-in {
+    padding: 30px 10px;
+    font-size: 15px;
+  }
 }
 
   @media (max-width: 375px) {
     .header {
       min-height: 85vh;
     }
+    .code-in {
+    padding: 30px 10px;
+    font-size: 14px;
+  }
   }
 
   @media (max-width: 350px) {
@@ -775,6 +807,10 @@ body, a {
     .skills__soft-part {
       font-size: 16px;
     }
+    .code-in {
+    padding: 20px 10px;
+    font-size: 13px;
+  }
   }
 
   @media (max-width: 340px) {
