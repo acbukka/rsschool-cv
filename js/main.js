@@ -2,13 +2,13 @@
 // функция закрытия/открытия менюшки c помощью добавления/удаления класса
 
 $('.nav-burger-arrow, .header__nav-item a').on('click', function () {
-  $('.header__nav-two').toggleClass('header__nav-two--active')
+  $('.header__nav-two').toggleClass('header__nav-two--active');
 });
 
 // такая же функция, только для стрелочки меню, чтобы она меняла свое состояние
 
 $('.nav-burger-arrow, .header__nav-item a').on('click', function () {
-  $('.nav-burger-arrow').toggleClass('nav-burger-arrow--active')
+  $('.nav-burger-arrow').toggleClass('nav-burger-arrow--active');
 });
 
 // функция для скрытия менюшки при клике в область за зоной (outside) этой менюшки и одновременно изменении состоянии стрелочки:
@@ -16,9 +16,9 @@ $('.nav-burger-arrow, .header__nav-item a').on('click', function () {
 document.onclick = function (e) {
   if (e.target.id !== 'header__nav-list-two' && e.target.id !== 'nav-burger-arrow') {
     $('.header__nav-two').removeClass('header__nav-two--active');
-    $('.nav-burger-arrow').removeClass('nav-burger-arrow--active')
+    $('.nav-burger-arrow').removeClass('nav-burger-arrow--active');
   }
-}
+};
 
 // плавный скрол:
 
@@ -45,13 +45,13 @@ function backToTop() {
 
   button.on('click', (e) => {
     e.preventDefault();
-    $('html').animate({scrollTop: 0}, 1000)
-  })
+    $('html').animate({ scrollTop: 0 }, 1000);
+  });
 }
 
 backToTop();
 
-// настройка формы с помощью formspree:
+// настройка формы с помощью сервиса formspree:
 
 var form = document.getElementById("my-form");
 
@@ -69,14 +69,14 @@ async function handleSubmit(event) {
   }).then(response => {
     status.classList.add('success');
     status.innerHTML = "Thanks!";
-    form.reset()
+    form.reset();
   }).catch(error => {
     status.classList.add('error');
-    status.innerHTML = "Oops! There was a problem submitting your form"
+    status.innerHTML = "Oops! There was a problem submitting your form";
   });
 }
 
-form.addEventListener("submit", handleSubmit)
+form.addEventListener("submit", handleSubmit);
 
 
 // подключил библиотеку hightlight js для демонстрации кода:
