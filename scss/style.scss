@@ -593,6 +593,10 @@ body, a {
     border-left: 5px solid $orange;
   }
 
+  .header__cv-link:focus {
+    color: #fff;
+  }
+
   .header__nav-list-two {
     position: fixed;
     inset: 0 0 0 75%;
