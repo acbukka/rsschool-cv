@@ -2,6 +2,10 @@
 
 # Nikita Romanov
 
+
+https://i.imgur.com/Utc53mK.png
+
+
 ## 📞 [Contact me](#Contacts)
 
 
