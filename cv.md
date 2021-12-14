@@ -28,7 +28,7 @@ github   | https://github.com/acbukka
 
 ## 👷 [Experience](#Experience)
 
-**I have no experience in development yet, but during the course of making up layouts, taking courses on layout and am interested in js, including.**
+**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting bigger**
 
 
 ## 📚 [English lvl](#English)
@@ -40,7 +40,7 @@ github   | https://github.com/acbukka
 ## 🎓 [Education](#Education)
 
 
-**2016 - 2021 | Siberian State Aerospace University**
+|**2016 - 2021 | Siberian State Aerospace University**|
 
 
 
