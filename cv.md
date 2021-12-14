@@ -2,7 +2,7 @@
 
 # Nikita Romanov
 
-![](https://i.imgur.com/Utc53mK.png =400x300)
+[<img src="https://i.imgur.com/Utc53mK.png" width="400">](https://i.imgur.com/Utc53mK.png)
 
 
 ## 📞 [Contact me](#Contacts)
