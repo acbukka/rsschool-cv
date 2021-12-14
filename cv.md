@@ -29,7 +29,7 @@
 
 ## 👷 [Experience](#Experience)
 
-**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting bigger**
+**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting bigger and stronger**
 
 
 ## 📚 [My English](#English)
