@@ -2,7 +2,7 @@
 
 # Nikita Romanov
 
-## 📞 [My contacts](#Contacts)
+## 📞 [Contact me](#Contacts)
 
 
 vk       | https://vk.com/acbukka
@@ -20,17 +20,16 @@ github   | https://github.com/acbukka
 
   1. **HTML/CSS**
   2. **JavaScript/Jquery**
-  3. **SASS/SCSS**
+  3. **SCSS**
   4. **BEM**
-  5. **GULP**
-  6. **Photoshop/Figma**
+  5. **Photoshop/Figma**
 
 ## 👷 [Experience](#Experience)
 
 **I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting bigger**
 
 
-## 📚 [English lvl](#English)
+## 📚 [My English](#English)
 
 
 **Pre-intermediate (A2)**
@@ -39,7 +38,7 @@ github   | https://github.com/acbukka
 ## 🎓 [Education](#Education)
 
 
-| **2016 - 2021 | Siberian State Aerospace University** |
+### | 2016 - 2021 | Siberian State Aerospace University |
 
 
 
