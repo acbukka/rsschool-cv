@@ -14,8 +14,7 @@ github   | https://github.com/acbukka
 
 ### Hi, I'm Nikita!
 
-## My goal is to get all the knowledge you need to develop web applications, learn js and learn a lot of new and interesting things.
-### I love to learn something new and constantly improve, and now this is my main occupation.
+## My goal is to get all the knowledge you need to develop web applications, learn js and learn a lot of new and interesting things. I love to learn something new and constantly improve, and now this is my main occupation.
 
 ## 🎓 [My skills](#Skills)
 
@@ -40,7 +39,7 @@ github   | https://github.com/acbukka
 ## 🎓 [Education](#Education)
 
 
-|**2016 - 2021 | Siberian State Aerospace University**|
+| **2016 - 2021 | Siberian State Aerospace University** |
 
 
 
