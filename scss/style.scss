@@ -584,7 +584,7 @@ body, a {
     border-left: 5px solid $white;
   }
 
-  // отменим белый цвет  в фокусе
+  // отменим белый цвет  в фокусе (для адаптива)
 
   .nav-burger-arrow:focus:after,
   .back-to-top:focus::before,
@@ -593,6 +593,7 @@ body, a {
     border-left: 5px solid $orange;
   }
 
+  // сделаем тоже самое для cv-link
   .header__cv-link:focus {
     color: #fff;
   }
