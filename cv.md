@@ -1,10 +1,9 @@
-[RS School](https://rs.school/)
+# [RS School](https://rs.school/)
 
 # Nikita Romanov
 
 ## 📞 [My contacts](#Contacts)
 
-## https://vk.com/acbukka - my vk
 
 vk       | https://vk.com/acbukka
 telegram | https://t.me/romanov99999
@@ -41,7 +40,7 @@ github   | https://github.com/acbukka
 ## 🎓 [Education](#Education)
 
 
-2016 - 2021 | Siberian State Aerospace University
+**2016 - 2021 | Siberian State Aerospace University**
 
 
 
