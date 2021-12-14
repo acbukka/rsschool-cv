@@ -38,7 +38,7 @@ github   | https://github.com/acbukka
 ## 🎓 [Education](#Education)
 
 
-### | 2016 - 2021 | Siberian State Aerospace University |
+### |2016 - 2021| Siberian State Aerospace University|
 
 
 
