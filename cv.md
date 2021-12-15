@@ -1,5 +1,3 @@
-# [RS School](https://rs.school/)
-
 # Nikita Romanov
 
 [<img src="https://i.imgur.com/CaqwGTg.png" width="400">](https://i.imgur.com/Utc53mK.png)
@@ -29,7 +27,7 @@
 
 ## 👷 [Experience](#Experience)
 
-**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting bigger and stronger**
+**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter**
 
 
 ## 📚 [My English](#English)
