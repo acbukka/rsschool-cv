@@ -6,9 +6,9 @@
 ## 📞 [Contact me](#Contacts)
 
 
-## my vk       | https://vk.com/acbukka
-## my telegram | https://t.me/romanov99999
-## my github   | https://github.com/acbukka
+## my vk       | (https://vk.com/acbukka)
+## my telegram | (https://t.me/romanov99999)
+## my github   | (https://github.com/acbukka)
 
 
 ## 📝 [About me](#About)
