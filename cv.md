@@ -5,10 +5,9 @@
 
 ## 📞 [Contact me](#Contacts)
 
-
-## my vk       | https://vk.com/acbukka
-## my telegram | https://t.me/romanov99999
-## my github   | https://github.com/acbukka
+[![Vkontakte](/images/md/vk-icon.png)](https://vk.com/acbukka)
+[![Telegram](/images/md/tg-icon.png)](https://t.me/romanov99999)
+[![Github](/images/md/gh-icon.png)](https://github.com/acbukka)
 
 
 ## 📝 [About me](#About)
