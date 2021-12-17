@@ -1,6 +1,6 @@
 # Nikita Romanov
 
-[<img src="/images/me3.png" width="400">](https://i.imgur.com/Utc53mK.png)
+[<img src="/images/me3.png" width="400">](https://github.com/acbukka)
 
 
 ## 📞 [Contact me](#Contacts)
