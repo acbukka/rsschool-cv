@@ -12,9 +12,9 @@
 
 ## 📝 [About me](#About)
 
-### Hi, I'm Nikita!
+## Hi, I'm Nikita!
 
-## My goal is to get all the knowledge you need to develop web applications, learn js and learn a lot of new and interesting things. I love to learn something new and constantly improve, and now this is my main occupation.
+### My goal is to get all the knowledge you need to develop web applications, learn js and learn a lot of new and interesting things. I love to learn something new and constantly improve, and now this hobby is my main "job".
 
 ## 🎓 [My skills](#Skills)
 
