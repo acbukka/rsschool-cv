@@ -20,14 +20,13 @@
 
   1. **HTML/CSS**
   2. **JavaScript/Jquery**
-  3. **SCSS**
+  3. **SASS**
   4. **BEM**
   5. **Photoshop/Figma**
 
 ## 👷 [Experience](#Experience)
 
-**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter**
-
+**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter**😎
 
 ## 📚 [My English](#English)
 
