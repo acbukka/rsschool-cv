@@ -6,7 +6,7 @@
 ## 📞 [Contact me](#Contacts)
 
 [![Vkontakte](/images/md/vk-icon.png)](https://vk.com/acbukka)
-[![Telegram](/images/md/tg-icon.png)](https://t.me/romanov99999)
+[![Telegram](/images/md/tg-icon1.png)](https://t.me/romanov99999)
 [![Github](/images/md/gh-icon.png)](https://github.com/acbukka)
 
 
