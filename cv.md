@@ -26,7 +26,31 @@
 
 ## 👷 [Experience](#Experience)
 
-**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter**😎
+**I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter😎**
+
+## 🎓 [Code example](#Code)
+
+```
+function backToTop() {
+              
+let button = $('.back-to-top');
+              
+$(window).on('scroll', () => {
+  if ($(this).scrollTop() >= 350) {
+  button.fadeIn();
+} else {
+  button.fadeOut();
+  }
+});
+
+button.on('click', (e) => {
+  e.preventDefault();
+  $('html').animate({scrollTop: 0}, 1000)
+  })
+}
+              
+backToTop();
+```
 
 ## 📚 [My English](#English)
 
