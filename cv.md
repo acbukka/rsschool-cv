@@ -1,6 +1,6 @@
 # Nikita Romanov
 
-[<img src="https://i.imgur.com/CaqwGTg.png" width="400">](https://i.imgur.com/Utc53mK.png)
+[<img src="/images/me3.png" width="400">](https://i.imgur.com/Utc53mK.png)
 
 
 ## 📞 [Contact me](#Contacts)
@@ -28,7 +28,7 @@
 
 **I have no experience in development yet, but during the course of making up layouts, i'll go to learn something new and getting smarter😎**
 
-## 🎓 [Code example](#Code)
+## 💻 [Code example](#Code)
 
 ```
 function backToTop() {
