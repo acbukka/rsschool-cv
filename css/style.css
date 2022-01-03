@@ -221,7 +221,8 @@ body, a {
 .about,
 .skills,
 .points,
-.contact {
+.contact,
+.projects {
   padding-bottom: 150px;
 }
 
@@ -376,6 +377,25 @@ span.skills__part-stars span {
   padding: 30px 250px;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.projects {
+  padding-bottom: 100px;
+}
+
+.projects-text {
+  font-size: 22px;
+  text-align: center;
+}
+
+.projects-text__link span {
+  color: #ee7600;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.projects-text__link span:hover {
+  color: #F8F0E4;
 }
 
 .points__inner {

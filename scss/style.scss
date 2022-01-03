@@ -204,7 +204,8 @@ body, a {
 .about,
 .skills,
 .points,
-.contact {
+.contact,
+.projects {
   padding-bottom: 150px;
 }
 
@@ -331,7 +332,24 @@ body, a {
     background-color: rgba(0,0,0, 0.6);
   }
 
+  .projects {
+    padding-bottom: 100px;
+  }
 
+  .projects-text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .projects-text__link {
+    span {
+      color: $orange;
+      transition: all .3s;
+    }
+  }
+  .projects-text__link span:hover {
+    color: $white;
+  }
 
   .points__inner {
     display: flex;
