@@ -33,11 +33,16 @@
 - [Cozy House](https://rolling-scopes-school.github.io/acbukka-JSFE2022Q1/shelter/pages/main/) (Advanced DOM, slider, pagination, randomizer)
 - [Todanda](https://acbukka.github.io/Todanda/) (Vue, arrays, data structure, localStorage)
 - [Portfolio](https://rolling-scopes-school.github.io/acbukka-JSFEPRESCHOOL/portfolio/) (DOM, pagination, video player)
+
+**Projects with forms and verifications:**
+- [tapir-form](https://github.com/acbukka/tapir-test) (JS, validation, DOM, regex)
+- [vue-drive-form](https://github.com/acbukka/vue-drive-form) (JS, Vue, validation, DOM, regex)
+
+**Other:**
 - [RetroKey](https://acbukka.github.io/virtual-keyboard/) (Keys Events, Data structure, DOM)
 - [Kaban Game](https://rolling-scopes-school.github.io/acbukka-JSFEPRESCHOOL/js30-dino/) (Advanced DOM and Events, complex fucntions, design, localStorage/highscores table)
 - [Pig Game](https://acbukka.github.io/PigGame/) (DOM manipulation)
 - [Guess my number](https://acbukka.github.io/random-num/) (DOM manipulation)
-
 ## 💻 [Code example](#Code)
 
 ```
